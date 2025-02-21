@@ -1,0 +1,68 @@
+body {
+  text-align: center;
+  font-family: "Happy Monkey", system-ui;
+  background: linear-gradient(#f4a9c7, rgb(240, 202, 227));
+}
+h1,
+h2,
+h4 {
+  text-shadow: 1px 1px 20px black;
+}
+#luli-img {
+  width: 500px;
+  border-radius: 15px;
+  border: 6px solid #a2d2ff;
+}
+#tuoi {
+  background: #a2d2ff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 5px 0 10px 0;
+}
+#ngay {
+  background: #a2d2ff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0px;
+}
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gift-img {
+  margin: 0 auto;
+  width: 620px;
+  height: 410px;
+  border: 6px solid white;
+  border-radius: 16px;
+  background-image: url(./sinhnhat.jpg_wh860.jpg);
+  background-size: cover;
+}
+
+.gift-section {
+  margin-top: 10px;
+}
+.gift-img {
+  margin-bottom: 20px;
+}
+.gift-hint {
+  margin-top: 0;
+}
+#gift-img-1:hover {
+  background-image: url(./nhap1.gif);
+}
+#gift-img-2:hover {
+  background-size: 100%;
+  background-image: url(./nhap2.gif);
+}
+
+#gift-img-4 {
+  height: 300px;
+  font-weight: 100px;
+}
+.footer {
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px palevioletred;
+}
