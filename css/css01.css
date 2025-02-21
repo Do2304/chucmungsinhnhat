@@ -18,6 +18,10 @@ body {
   overflow: hidden; /* Ẩn các phần nội dung tràn ra ngoài */
   font-family: "Fredoka One", cursive;
   color: white;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
 }
 .img_banner_hpbd { 
   background-image: url("../img/3d28ae425248a05544665dd53400f52e.jpg");
@@ -108,9 +112,96 @@ h4 {
 .containeri .img{
   box-shadow: 0 4px 8px 0 rgba(230, 70, 188, 0.2), 0 6px 20px 0 rgba(236, 48, 217, 0.19);
   margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.birthday-card {
+  border: 2px solid rgb(197, 72, 139);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(241, 117, 190, 0.5);
+  padding: 20px;
+  background-color: #fff;
+  text-align: center;
+  max-width: 600px;
+  margin: auto; /* Căn giữa card */
+}
+.card-header h1 {
+  color: rgb(197, 72, 139);
+}
+
+.card-content{
+  margin: 20px 20px
+}
+.card-content p {
+  margin: 10px 0;
+  font-size: 18px;
 }
 
 
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .img_banner_hpbd {
+    background-image: none;
+   
+}
+.row {
+  display: flex; /* Sử dụng Flexbox */
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  align-items: center; /* Căn giữa theo chiều dọc (nếu cần) */
+}
+
+#bond {
+  display: flex; /* Sử dụng Flexbox cho thiệp */
+  justify-content: center; /* Căn giữa hình ảnh thiệp */
+}
+  .jumbotron {
+      padding: 20px; 
+  }
+
+  .birthday-card {
+      padding: 10px; 
+      max-width: 90%; 
+  }
+
+  .card-content p {
+      font-size: 16px; 
+  }
+
+  .media-object {
+      height: auto; 
+      width: 100%; 
+  }
+
+  .containeri .img {
+      margin-bottom: 10px; 
+  }
+
+  h1.heading {
+      font-size: 24px; 
+  }
+
+  h4 {
+      font-size: 18px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .img_banner_hpbd {
+    background-image: none;
+    border-radius: 10px;
+}
+.row {
+  display: flex; /* Sử dụng Flexbox */
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  align-items: center; /* Căn giữa theo chiều dọc (nếu cần) */
+}
+
+#bond {
+  display: flex; /* Sử dụng Flexbox cho thiệp */
+  justify-content: center; /* Căn giữa hình ảnh thiệp */
+}
+
+}
 
 
 
