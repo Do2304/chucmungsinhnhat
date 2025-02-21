@@ -9,9 +9,13 @@ and open the template in the editor.
 */
 
 body {
-  background-image: url("../img/hpbd.jpg");
-  background-size: 100%;
-  background-repeat: repeat-y;
+  background-image: url("../img/haha.png");
+  background-size: cover; /* Giữ nguyên để ảnh bao phủ toàn bộ */
+  background-repeat: no-repeat; /* Không lặp lại ảnh */
+  background-position: center; /* Căn giữa ảnh */
+  height: 100vh; /* Đảm bảo chiều cao đầy đủ */
+  margin: 0; /* Đảm bảo không có khoảng trống xung quanh */
+  overflow: hidden; /* Ẩn các phần nội dung tràn ra ngoài */
   font-family: "Fredoka One", cursive;
   color: white;
 }
@@ -25,19 +29,19 @@ h1.heading {
   font-family: "Pacifico", cursive;
 }
 .jumbotron {
-  opacity: 0.4;
-  filter: alpha(opacity=50); /* For IE8 and earlier */
+  opacity: 0.8;
+  filter: alpha(opacity=90);
 }
 h4 {
   font-family: "Nunito Sans", sans-serif;
 }
 .bg-snow-tranparent-normal {
   opacity: 1;
-  filter: alpha(opacity=50); /* For IE8 and earlier */
+  filter: alpha(opacity=90); 
 }
 .bg-snow-tranparent-hidden {
-  opacity: 0.8;
-  filter: alpha(opacity=50); /* For IE8 and earlier */
+  opacity: 1;
+  filter: alpha(opacity=90); 
 }
 .footer {
   height: 250px;
@@ -45,8 +49,8 @@ h4 {
   background-color: darkblue;
   color: skyblue;
   padding-top: 100px;
-  opacity: 0.5;
-  filter: alpha(opacity=50); /* For IE8 and earlier */
+  opacity: 1;
+  filter: alpha(opacity=90); 
 }
 .containeri {
   position: relative;
@@ -94,4 +98,8 @@ h4 {
   bottom: 5px;
   left: 270px;
   color: #b78690;
+}
+.media-object {
+  border: 3px solid rgb(197, 72, 139);
+  box-shadow: 0 4px 8px rgba(241, 117, 190, 0.8);
 }
